@@ -148,9 +148,8 @@ CryptoID/
 ├── 📄 package.json # Dependencies and scripts
 ├── ⚙️ vite.config.js # Vite and PWA configuration
 ├── 🎨 tailwind.config.js # TailwindCSS customization
-└── 📋 README.md # Project documentation
-
 text
+undefined
 
 ---
 
@@ -162,8 +161,10 @@ text
 - **Progressive Web Application Architecture** - Built the complete offline-first PWA infrastructure with service workers, IndexedDB integration, and cross-platform compatibility
 - **Behavioral Biometrics Integration** - Integrated the Jlyn Cipher with 50+ behavioral pattern collection systems for seamless real-time encryption and verification
 - **PWA Optimization** - Implemented advanced caching strategies, background sync, and native app-like user experience across all devices
+- **Machine Learning Integration** - Integrated TensorFlow.js for real-time behavioral pattern analysis and classification
+- **Blockchain Certificate Management** - Architected the immutable identity certificate system with smart contract integration and IPFS storage
 
-**💡 Technical Specializations:** Custom cryptographic algorithm development, PWA architecture, behavioral data encryption, cross-platform optimization
+**💡 Technical Specializations:** Custom cryptographic algorithm development, PWA architecture, behavioral data encryption, cross-platform optimization, machine learning integration, blockchain technology
 
 ---
 
@@ -175,12 +176,11 @@ text
 - **Financial Service Integration** - Implemented KYC/AML compliance frameworks, multi-currency support, and banking API simulation systems
 - **Blockchain Certificate Management** - Architected the immutable identity certificate system with smart contract integration and IPFS storage
 - **WebRTC P2P Networking** - Developed the mesh network verification system for decentralized identity validation
-- **Machine Learning Integration** - Integrated TensorFlow.js for real-time behavioral pattern analysis and classification
 - **Data Integration & Analytics** - Implemented World Bank, G20, and IMF data integration with realistic demographic scenarios
 - **Progressive Trust Building** - Developed multi-layer verification systems with behavioral consistency tracking and milestone recognition
 - **Quality Assurance & Testing** - Comprehensive error handling, cross-browser compatibility, and performance optimization
 
-**💡 Technical Specializations:** Full-stack development, machine learning integration, blockchain technology, financial systems integration, UI/UX design, peer-to-peer networking
+**💡 Technical Specializations:** Full-stack development, financial systems integration, UI/UX design, peer-to-peer networking
 
 ---
 
