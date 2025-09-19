@@ -110,8 +110,7 @@ CryptoID is a groundbreaking Progressive Web Application that leverages advanced
 - **IBM Behavioral Biometrics Research** (Academic pattern recognition studies)
 
 ---
-## 🏗️ Project Architecture  
-
+## 🏗️ Project Architecture 
 📁 CryptoID/
 ├── 📂 public/
 │ ├── 📄 index.html # Main HTML entry point
@@ -154,7 +153,6 @@ CryptoID is a groundbreaking Progressive Web Application that leverages advanced
 ├── ⚡ vite.config.js # Vite & PWA configuration
 ├── 🎨 tailwind.config.js # TailwindCSS customization
 └── 📘 README.md # Documentation
-
 ---
 
 ## 👥 Development Team - Team XCalibur
