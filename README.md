@@ -111,48 +111,40 @@ CryptoID is a groundbreaking Progressive Web Application that leverages advanced
 
 ---
 ## 🏗️ Project Architecture 
-📁 CryptoID/
-├── 📂 public/
-│ ├── 📄 index.html # Main HTML entry point
-│ ├── 📄 manifest.json # PWA manifest configuration
-│ ├── ⚙️ service-worker.js # Offline functionality
-│ └── 🖼️ icons/ # App icons for various devices
 
-├── 📂 src/
-│ ├── 📂 components/
-│ │ ├── 🧠 BehaviorCapture.jsx # Biometric pattern collection (50+)
-│ │ ├── 🤝 SocialProofSystem.jsx # Community vouching network
-│ │ ├── ⚖️ RiskAssessment.jsx # Adaptive security analysis
-│ │ ├── 📈 ProgressiveTrust.jsx # Multi-layer trust building
-│ │ ├── 🏦 FinancialIntegration.jsx# Banking / KYC integration
-│ │ ├── 🔗 BlockchainCert.jsx # Immutable blockchain certificates
-│ │ ├── 📡 WebRTCVerification.jsx # Peer-to-peer mesh verification
-│ │ ├── 🛡️ ErrorBoundary.jsx # Comprehensive error handling
-│ │ └── ⏳ LoadingSpinner.jsx # Professional loading states
-│ │
-│ ├── 📂 pages/
-│ │ ├── 🏠 Home.jsx # Landing & hero section
-│ │ ├── ✍️ CreateIdentity.jsx# Identity creation workflow
-│ │ ├── ✅ Verify.jsx # Identity verification portal
-│ │ ├── 📊 Dashboard.jsx # User analytics dashboard
-│ │ └── ℹ️ About.jsx # Technology explanation
-│ │
-│ ├── 📂 crypto/
-│ │ └── 🔒 jlynCipher.js # Proprietary Jlyn encryption
-│ │
-│ ├── 📂 utils/
-│ │ ├── 💾 indexedDB.js # Offline storage management
-│ │ ├── 📐 behaviorAnalysis.js# Pattern processing algorithms
-│ │ └── 🌍 worldBankData.js # Demographic & scenario data
-│ │
-│ ├── ⚛️ App.jsx # Root app component
-│ └── ⚛️ main.jsx # React entry point
+## 🏗️ Project Architecture  
 
-├── 🎨 index.css # Global styles & themes
-├── 📦 package.json # Dependencies & scripts
-├── ⚡ vite.config.js # Vite & PWA configuration
-├── 🎨 tailwind.config.js # TailwindCSS customization
-└── 📘 README.md # Documentation
+📁 **CryptoID/**  
+- 📂 **public/**  
+  - 📄 index.html → Main HTML entry point  
+  - 📄 manifest.json → PWA manifest configuration  
+  - ⚙️ service-worker.js → Offline functionality  
+  - 🖼️ icons/ → App icons for devices  
+
+- 📂 **src/**  
+  - 📂 components/  
+    - 🧠 BehaviorCapture.jsx → Biometric pattern collection  
+    - 🤝 SocialProofSystem.jsx → Community vouching network  
+    - ⚖️ RiskAssessment.jsx → Adaptive security analysis  
+    - 📡 WebRTCVerification.jsx → Peer-to-peer mesh verification  
+  - 📂 pages/  
+    - 🏠 Home.jsx → Landing page  
+    - ✅ Verify.jsx → Identity verification portal  
+    - 📊 Dashboard.jsx → Analytics dashboard  
+  - 📂 crypto/  
+    - 🔒 jlynCipher.js → Proprietary encryption  
+  - 📂 utils/  
+    - 💾 indexedDB.js → Offline storage  
+    - 🌍 worldBankData.js → Demographic data  
+  - ⚛️ App.jsx → Root component  
+  - ⚛️ main.jsx → React entry point  
+
+- 🎨 index.css → Styling & themes  
+- 📦 package.json → Dependencies  
+- ⚡ vite.config.js → Vite config  
+- 🎨 tailwind.config.js → TailwindCSS config  
+- 📘 README.md → Documentation  
+
 ---
 
 ## 👥 Development Team - Team XCalibur
