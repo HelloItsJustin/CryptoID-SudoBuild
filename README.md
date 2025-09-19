@@ -110,46 +110,50 @@ CryptoID is a groundbreaking Progressive Web Application that leverages advanced
 - **IBM Behavioral Biometrics Research** (Academic pattern recognition studies)
 
 ---
+## 🏗️ Project Architecture  
 
-## 🏗️ Project Architecture
-
-CryptoID/
-├── 📁 public/
+📁 CryptoID/
+├── 📂 public/
 │ ├── 📄 index.html # Main HTML entry point
 │ ├── 📄 manifest.json # PWA manifest configuration
-│ ├── 📄 service-worker.js # Offline functionality
-│ └── 📁 icons/ # App icons for various devices
-├── 📁 src/
-│ ├── 📁 components/
-│ │ ├── 🧠 BehaviorCapture.jsx # 50+ pattern biometric collection
+│ ├── ⚙️ service-worker.js # Offline functionality
+│ └── 🖼️ icons/ # App icons for various devices
+
+├── 📂 src/
+│ ├── 📂 components/
+│ │ ├── 🧠 BehaviorCapture.jsx # Biometric pattern collection (50+)
 │ │ ├── 🤝 SocialProofSystem.jsx # Community vouching network
 │ │ ├── ⚖️ RiskAssessment.jsx # Adaptive security analysis
 │ │ ├── 📈 ProgressiveTrust.jsx # Multi-layer trust building
-│ │ ├── 🏦 FinancialIntegration.jsx # Banking/KYC integration
-│ │ ├── ⛓️ BlockchainCert.jsx # Immutable certificates
-│ │ ├── 🔄 WebRTCVerification.jsx # P2P mesh verification
+│ │ ├── 🏦 FinancialIntegration.jsx# Banking / KYC integration
+│ │ ├── 🔗 BlockchainCert.jsx # Immutable blockchain certificates
+│ │ ├── 📡 WebRTCVerification.jsx # Peer-to-peer mesh verification
 │ │ ├── 🛡️ ErrorBoundary.jsx # Comprehensive error handling
-│ │ └── 🔄 LoadingSpinner.jsx # Professional loading states
-│ ├── 📁 pages/
-│ │ ├── 🏠 Home.jsx # Landing and hero section
-│ │ ├── ➕ CreateIdentity.jsx # Identity creation workflow
+│ │ └── ⏳ LoadingSpinner.jsx # Professional loading states
+│ │
+│ ├── 📂 pages/
+│ │ ├── 🏠 Home.jsx # Landing & hero section
+│ │ ├── ✍️ CreateIdentity.jsx# Identity creation workflow
 │ │ ├── ✅ Verify.jsx # Identity verification portal
 │ │ ├── 📊 Dashboard.jsx # User analytics dashboard
 │ │ └── ℹ️ About.jsx # Technology explanation
-│ ├── 📁 crypto/
-│ │ └── 🔐 jlynCipher.js # Proprietary Jlyn encryption
-│ ├── 📁 utils/
+│ │
+│ ├── 📂 crypto/
+│ │ └── 🔒 jlynCipher.js # Proprietary Jlyn encryption
+│ │
+│ ├── 📂 utils/
 │ │ ├── 💾 indexedDB.js # Offline storage management
-│ │ ├── 🧠 behaviorAnalysis.js # Pattern processing algorithms
-│ │ └── 🌍 worldBankData.js # Demographic scenario data
-│ ├── 📄 App.jsx # Main application component
-│ ├── 📄 main.jsx # React entry point
-│ └── 🎨 index.css # Global styling and themes
-├── 📄 package.json # Dependencies and scripts
-├── ⚙️ vite.config.js # Vite and PWA configuration
+│ │ ├── 📐 behaviorAnalysis.js# Pattern processing algorithms
+│ │ └── 🌍 worldBankData.js # Demographic & scenario data
+│ │
+│ ├── ⚛️ App.jsx # Root app component
+│ └── ⚛️ main.jsx # React entry point
+
+├── 🎨 index.css # Global styles & themes
+├── 📦 package.json # Dependencies & scripts
+├── ⚡ vite.config.js # Vite & PWA configuration
 ├── 🎨 tailwind.config.js # TailwindCSS customization
-text
-undefined
+└── 📘 README.md # Documentation
 
 ---
 
